@@ -10,13 +10,14 @@ class Numbers {
     }
   }
   count() {
-    return str.split(',').length
+    return this.data.length
+    //return str.split(',').length
     //return the count of numbers in data
   }
   printNumbers() {
     //print the numbers in data
-    const numbers = str.split(",")
-    console.log(numbers)
+    //const numbers = str.split(",")
+    console.log(this.data)
   }
   odds() {
     const output = [];
