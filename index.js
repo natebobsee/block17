@@ -25,7 +25,8 @@ class Numbers {
     for (i=0; i<this.data.length; i++)
     { 
        if (this.data[i]%2===1)
-       output[i]=this.data[i];
+       output.push(this.data[i])
+       //output[i]=this.data[i];
     }
     return output
 
@@ -38,7 +39,7 @@ class Numbers {
     for (i=0; i<this.data.length; i++)
     { 
        if (this.data[i]%2===0)
-       output[i]=this.data[i];
+       output.push(this.data[i])
     }
     return output
     //return the even numbers in data
@@ -70,7 +71,7 @@ class Numbers {
     for (i=0; i<this.data.length; i++)
     { 
       if(this.data[i]>target)
-       output[i]=this.data[i];
+      output.push(this.data[i])
     }
     return output
 
